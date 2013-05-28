@@ -1,5 +1,5 @@
 {
-  "name": "onBodyMiddleware",
+  "name": "onbody",
   "description": "a connect middleware for getting an http request's body as a buffer or string",
   "keywords": ["http", "request", "body"],
   "version": "0.0.1",
