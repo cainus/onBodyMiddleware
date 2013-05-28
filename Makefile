@@ -8,7 +8,7 @@ lib-cov:
 test-cov:	lib-cov
 	echo TRAVIS_JOB_ID $(TRAVIS_JOB_ID)
 	@ONBODYMIDDLEWARE_COVERAGE=1 $(MAKE) test REPORTER=html-cov 1> coverage.html
-	#rm -rf lib-cov
+	rm -rf lib-cov
 
 test-coveralls:	lib-cov
 	echo TRAVIS_JOB_ID $(TRAVIS_JOB_ID)
